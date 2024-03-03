@@ -26,6 +26,7 @@ header {
   align-items: start;
   justify-content: space-between;
   width: 100%;
+  position: relative;
 }
 
 hr {
@@ -84,4 +85,15 @@ hr {
   height: 20px;
   flex-shrink: 0;
   margin-top: 18px;
+}
+
+.drop-cart {
+  width: 360px;
+  height: 256px;
+  background-color: white;
+  box-shadow: 0px 20px 50px -20px #1d202680;
+  position: absolute;
+  top: 70px;
+  right: -40px;
+  display: none;
 }
