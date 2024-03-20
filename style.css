@@ -10,7 +10,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 
 .main {
@@ -27,6 +26,7 @@ header {
   justify-content: space-between;
   width: 100%;
   position: relative;
+  padding: 15px 30px;
 }
 
 hr {
@@ -70,6 +70,21 @@ hr {
 
 .image {
   display: flex;
+  position: relative;
+}
+
+.badge {
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  background-color: darkorange;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 15px;
 }
 
 .user-photo {
@@ -101,6 +116,7 @@ hr {
 .body-div {
   width: 100%;
   display: flex;
+  margin-bottom: 100px;
 }
 
 .photo {
@@ -172,4 +188,46 @@ hr {
   font-size: 16px;
   color: #b6bccb;
   text-decoration: line-through;
+}
+
+.main-button {
+  display: flex;
+  margin-top: 40px;
+}
+
+.button {
+  width: 157px;
+  height: 56px;
+  background-color: #f6f8fd;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 16px;
+}
+
+.button button {
+  color: #ff7e1b;
+  border-radius: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  width: 30%;
+  background: none;
+  cursor: pointer;
+}
+
+.button span {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+.add-cart {
+  padding: 18px 76px;
+  background-color: #ff7e1b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  cursor: pointer;
 }

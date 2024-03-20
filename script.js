@@ -13,9 +13,9 @@ cart.addEventListener("click", () => {
 const bigPhoto = document.querySelector(".bigPhoto");
 const smalPhoto = document.querySelectorAll(".img1");
 
-console.dir(bigPhoto.src);
-console.log(smalPhoto);
-console.log(smalPhoto[2]);
+// console.dir(bigPhoto.src);
+// console.log(smalPhoto);
+// console.log(smalPhoto[2]);
 
 function changeUrl(x) {
   bigPhoto.src = smalPhoto[x].src;
